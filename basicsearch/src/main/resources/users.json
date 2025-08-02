@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "email": "alice@example.com",
+    "salary": 50000,
+    "interests": ["Aircraft Spotting", "Reading"]
+  },
+  {
+    "id": 2,
+    "firstName": "Bob",
+    "lastName": "Smith",
+    "email": "bob@example.com",
+    "salary": 60000,
+    "interests": ["Gaming", "Aircraft Spotting"]
+  },
+  {
+    "id": 3,
+    "firstName": "Clara",
+    "lastName": "Lee",
+    "email": "clara@example.com",
+    "salary": 70000,
+    "interests": ["Cooking", "Traveling"]
+  },
+  {
+    "id": 4,
+    "firstName": "David",
+    "lastName": "Wright",
+    "email": "david@example.com",
+    "salary": 55000,
+    "interests": ["Aircraft Spotting", "Photography"]
+  },
+  {
+    "id": 5,
+    "firstName": "Eva",
+    "lastName": "Davis",
+    "email": "eva@example.com",
+    "salary": 52000,
+    "interests": ["Drawing", "Reading"]
+  }
+]

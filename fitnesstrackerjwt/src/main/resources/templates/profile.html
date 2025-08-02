@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>User Profile</title>
+</head>
+<body>
+<h1>User Profile</h1>
+<h2>Welcome, <span th:text="${user.name}">User</span></h2>
+<p><strong>Name:</strong> <span th:text="${user.name}">User Name</span></p>
+<p><strong>Email:</strong> <span th:text="${user.email}">email@example.com</span></p>
+<p><strong>Role:</strong> <span th:text="${user.role.name()}">USER</span></p>
+
+<br/>
+<a th:href="@{/api/user/update}">Update Profile</a> |
+<a th:href="@{/api/user/workouts}">View Workouts</a> |
+<a th:href="@{/api/user/dashboard}">Back to Dashboard</a>
+</body>
+</html>

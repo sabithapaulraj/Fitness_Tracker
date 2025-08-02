@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Submitted Info</title>
+</head>
+<body>
+<h2>User Info Submitted</h2>
+<p><strong>Name:</strong> <span th:text="${user.name}"></span></p>
+<p><strong>Email:</strong> <span th:text="${user.email}"></span></p>
+
+<h3>Preferred Locations:</h3>
+<ul>
+  <li>City: <span th:text="${user.addresses[0].city}"></span>, State: <span th:text="${user.addresses[0].state}"></span></li>
+  <li>City: <span th:text="${user.addresses[1].city}"></span>, State: <span th:text="${user.addresses[1].state}"></span></li>
+</ul>
+
+<h3>Phone Numbers:</h3>
+<ul>
+  <li>Phone 1: <span th:text="${user.phones[0]}"></span></li>
+  <li>Phone 2: <span th:text="${user.phones[1]}"></span></li>
+</ul>
+<p><strong>Created by:</strong> Sabitha (Register No: 212222040137)</p>
+
+</body>
+</html>

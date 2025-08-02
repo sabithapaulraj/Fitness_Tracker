@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Search</title>
+</head>
+<body>
+<h2>Search Users</h2>
+<form th:action="@{/search}" method="post" th:object="${request}">
+    <label for="minSalary">Minimum Salary:</label>
+    <input type="number" th:field="*{minSalary}" required />
+
+    <br/>
+
+    <label for="interest">Interest:</label>
+    <input type="text" th:field="*{interest}" required />
+
+    <br/>
+
+    <button type="submit">Search</button>
+</form>
+</body>
+</html>
